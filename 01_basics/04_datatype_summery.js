@@ -16,3 +16,20 @@ const score = 100; // Number
 const scoreValue = 100.5; // Number with decimal
 
 const isLoggedIn = true; // Boolean
+
+
+// STACK - PRIMITIVE DATA TYPES`
+// HEAP - REFERENCE DATA TYPES
+
+let userOne = {
+    email: "userone@example.com",
+    name: "User One",
+    age: 25
+};
+
+let userTwo = userOne; // Reference to the same object in memory
+
+userTwo.email = "usertwo@example.com";
+
+console.log(userOne.email); // Output:
+console.log(userTwo.email); // Output:
