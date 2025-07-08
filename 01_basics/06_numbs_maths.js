@@ -26,11 +26,30 @@ const dollar = 5000000000;
 
 // +++++++++++++++++ Maths +++++++++++++++++
 
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.ceil(5.1)); // 6
+// console.log(Math.floor(5.9)); // 5
+// console.log(Math.round(5.5)); // 6
+// console.log(Math.sqrt(25)); // 5
+// console.log(Math.abs(-5)); // 5
+// console.log(Math.min(5, 10, 15)); // 5
+// console.log(Math.max(5, 10, 15)); // 15
+// console.log(Math.random()); // Random number between 0 and 1
+// console.log(Math.random() * 100); // Random number between 0 and 100
+// console.log(Math.random() * 100 + 1); // Random number between 1 and 100
+// console.log(Math.floor(Math.random() * 100) + 1); // Random
+
+
+
 const num1  = 100;
 
-//
+// console.log(num1); // 101
+// console.log(num1); // Pre-increment, now 102
+// console.log(++num1); // Post-decrement, now 102);
 
+const min = 10;
+const max = 20;
 
-console.log(num1); // 101
-console.log(++num1); // Pre-increment, now 102
-console.log(num1--); // Post-decrement, now 102
+// console.log(Math.random() * (max - min + 1) + min); // Random number between 10 and 20
+// console.log(Math.floor(Math.random() * (max - min + 1) + min)); // Random integer between 10 and 20
