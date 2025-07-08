@@ -15,15 +15,17 @@ let mynewdate = new Date("01-14-2023")
 // console.log(mynewdate.toLocaleDateString());
 
 let myTimeStamp = Date.now()
-console.log(myTimeStamp);
-console.log(mynewdate.getTime());
+// console.log(myTimeStamp);
+// console.log(mynewdate.getTime());
+console.log(Math.floor(Date.now()/1000));
 
+let newDate = new Date();
+// console.log(newDate);
+// console.log(newDate.getDate());
+// console.log(newDate.getDay());
+// console.log(newDate.getMonth());
+// console.log(newDate.getMonth() + 2);
 
-
-
-
-
-
-
-
-
+// console.log(newDate.toLocaleString('default', {
+//     weekday: "long",
+// }))
